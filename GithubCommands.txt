@@ -1,7 +1,19 @@
+//Github User Settings
+1. git config --global user.name "King Kong"
+2. git config --global user.email "king-kong@gmail.com"
+3. git config --list
+//Git Commands
 1. git init
-2. git add <FileName>
+2. git add . or Filenames
 3. git status
-4. git rm --cached <FileName>
+4. git commit -m "1st Git Commit"
 5. git log
+//Remove File From Staging Area
+1. git rm --cached Filename
+//Git Branch
+1. git branch BranchName
+2. git checkout BranchName
+3. git merge BranchName
+4. git push origin BranchName
 6. git commit -m "Message"
 7. git branch Backend
