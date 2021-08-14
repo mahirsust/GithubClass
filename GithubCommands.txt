@@ -7,12 +7,20 @@
 2. git add . or Filenames
 3. git status
 4. git commit -m "1st Git Commit"
-5. git log
+5. git commit -m "git Message" -m "git description message"
+6. git log
 // Show Active and Hidden folders
-ls -la or
-la
+1. ls -la or
+2. la
 //Remove File From Staging Area
 1. git rm --cached Filename
+//delete current pushed commit File
+1. git reset --hard Head~1
+//git commit message change
+1. git commit --amend -m "Updated Message"
+//git current pushed commit message change
+1. git commit --amend -m "Updated Message"
+2. git push --force <remotename> <branchname>
 //Git Branch
 1. git branch BranchName
 2. git checkout BranchName
