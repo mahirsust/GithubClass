@@ -23,11 +23,15 @@
 2. git push --force <remotename> <branchname>
 //Git Branch
 1. git branch BranchName
-2. git checkout BranchName
-3. git merge BranchName
+2. git checkout BranchName or
+3. git checkout -b <branchname>
+4. git merge BranchName
 4. git push origin BranchName
 6. git commit -m "Message"
 7. git branch Backend
+//git branch delete from local and remote repository
+1. git branch -d <localbranchname>
+2. git push origin --delete <remotebranchname>
 //Start project from local repository to push it into Github Reposotory
 1. Add README.md file
 2. Add your project file
